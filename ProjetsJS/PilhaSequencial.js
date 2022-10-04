@@ -24,7 +24,8 @@ class Pilha{
         return this.dados.push(value)
     }
     desempilhar(){
-        return this.dados.pop()
+        if (not this.dados.estaVazia){
+        return this.dados.pop()}
     }
     elemento(posicao){
         return this.dados.find(element => element > posicao)
