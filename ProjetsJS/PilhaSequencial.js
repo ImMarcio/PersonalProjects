@@ -32,6 +32,10 @@ class Pilha{
     busca(value){
         return this.dados.indexOf(value)
     }
+    */esvazia(){
+        while(not this.dados.estavazia()){ 
+             this.dados.desempilhar()}
+    }/*
 }
 
 
